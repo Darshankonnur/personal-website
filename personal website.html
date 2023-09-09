@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarshanKonnur</title>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  width:auto;
+  height:190px;
+  background-color: #c641a3;
+  
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.logo {
+  max-height:auto;
+  float: left;
+  padding: 10px;
+  margin-left: -80px;
+}
+nav ul li {
+  
+  background-color: #f9f6f6;
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 30px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #f0eeee;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #111111;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #0a0a0a;
+  border: 2px solid #fd4766;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #f1f0f0;
+  color: #020202;
+}
+.content {
+  max-width:fit-content;
+  max-height: fit-content;
+  position: absolute;
+  top: 27%;
+  left: 0%;
+  bottom:0%;
+  background-color: rgb(225, 161, 227)
+  
+}
+.content .title {
+  max-width: fit-content;
+  max-height: fit-content;
+  color: #ebe1e1;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 0.5%;
+  background: linear-gradient(
+    120deg,
+    #ba153b 20.69%,
+    #2b057e 50.19%,
+    #321502 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h1 {
+  color: #1f1f25;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+  max-width: fit-content;
+}
+  
+#button1 {
+  background-color: #290124;
+  width: 100px;
+  color: white;
+  border-radius: 20px;
+  
+}
+
+#button2 {
+  background-color: #290124;
+  width: 100px;
+  color: white;
+  border-radius: 20px;
+}
+
+#button3 {
+  background-color:#290124;
+  width: 100px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#button4{
+  background-color:#290124;
+  width: 100px; 
+  color: white;
+  border-radius: 20px;
+}
+.content h1 span {
+  color: #fd4766;
+  width: auto;
+  height: auto;
+}
+.content p {
+  max-width: auto;
+  width: 55%;
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  
+}
+
+    </style>
+</head>
+<body>
+
+  <script>
+    function myfunction(){
+    document.getElementById("demo1").innerHTML="8431284758"
+    } 
+    function myfunction1(){
+      document.getElementById("demo2").innerHTML="dk9288037@gmail.com"  
+   }
+ 
+   function myfunction2(){
+      document.getElementById("demo3").innerHTML="Bachelor of engineering"  
+   }
+
+   function myfunction3(){
+      document.getElementById("demo4").innerHTML=""
+   }
+</script> 
+
+   
+</script>
+    <div class="hero">
+      <nav>
+        <img src="f:\desktop\darshan\14-05-2022 17_09_48.png" width="150px" height="150px" class="logo" />
+        <ul>
+          <li><button id="button1" onclick="myfunction1()">Email</button> <p id="demo2"></p>
+          <li><button id="button2" onclick="myfunction2()">Education</button> <p id="demo3"></p>
+          <li> <a href="https://www.linkedin.com/in/darshan-konnur-2026591b3/"><p id="button3">Linkedin </p></a>
+          <li><button id="button4" onclick="myfunction()">phone</button> <p id="demo1"></p>
+          </li>
+        </ul>
+        <a href="#" class="btn">Resume</a>
+      </nav>
+
+      <div class="content">
+        <span class="title">Highly motivated engineer</span>
+        <h1>Hello, I’m <span>DARSHAN KONNUR</span></h1>
+        <p>
+            Desiring to be part of an organization that provides opportunities for growth and advancement by utilizing my full stack development skills. Aspiring for the position of Full Stack Developer where I can use my extensive knowledge of programming languages and frameworks to develop efficient web applications.
+        </p>
+        <a href="https://drive.google.com/file/d/1wkuqUW9FGdOhy1JeQ0KfPXLi4Y8qlIQ9/view?usp=sharing" class="btn">Download CV</a>
+      </div>
+    </div>
+  </body>
+</html>
+</body>
+</html>
